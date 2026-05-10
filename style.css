@@ -1,0 +1,137 @@
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: Arial;
+    margin: 0;
+}
+
+header {
+    background-color: rgb(157, 227, 128);
+    padding: 10px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav {
+    background-color: rgb(80, 130, 60);
+    padding: 8px;
+    text-align: center;
+    position: relative;
+}
+
+nav a {
+    color: white;
+    margin: 0 12px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px 40px;
+}
+
+h2 {
+    font-family: cursive;
+    border-style: dashed;
+    margin: auto;
+    padding: 2px 30px 2px;
+    color: rgb(106, 164, 77);
+    border-bottom: 2px solid rgb(85, 130, 66);
+}
+
+table {
+    font-family: Arial, sans-serif;
+    width: 100%;
+    background: white;
+    margin: 10px 0;
+    border-style: double;
+    border-width: 10px;
+    border-radius: 10px;
+}
+
+th {
+    text-align: center;
+    background-color: rgb(148, 191, 130);
+    padding: 8px;
+    border-bottom: 4px solid red;
+}
+
+td {
+    text-align: center;
+    padding: 7px 8px;
+    border: 1px solid #d1c5c5;
+}
+
+tr {
+    background-color: rgb(220, 235, 215);
+}
+
+.card {
+    background: rgb(228, 136, 136);
+    border-left: 4px solid rgb(80,160,60);
+    padding: 10px 14px;
+    margin: 10px 0;
+    position: relative;
+}
+
+.card::before {
+    content: "•";
+    position: absolute;
+    top: 10px;
+    right: 12px;
+    color: rgb(80,160,60);
+    font-size: 20px;
+}
+
+input,
+select,
+textarea {
+    width: 40%;
+    padding: 7px;
+    margin: 4px 0 10px;
+    border: 1px solid #bbb;
+    border-radius: 3px;
+}
+
+button {
+    padding: 9px 24px;
+    background: rgb(80,160,60);
+    color: white;
+    border: 3px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+footer {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: rgb(148, 191, 130);
+    padding: 14px 40px;
+    margin-top: 10px;
+    position: relative;
+}
+
+hr {
+    border-top: 2px solid rgb(148,191,130);
+}
+
+ul li {
+    padding: 3px 0;
+}
+
+img,
+video {
+    max-width: 100%;
+}
